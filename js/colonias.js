@@ -1,9 +1,9 @@
-function change(indselect, depselect){
-    indselect = document.getElementById(indselect);
-    depselect = document.getElementById(depselect);
-    depselect.value ="";
-    depselect.innerHTML = "";
-    if(indselect.value == "Álvaro Obregón"){
+function change(alcaldia, colonia){
+    alcaldia = document.getElementById(alcaldia);
+    colonia = document.getElementById(colonia);
+    colonia.value ="";
+    colonia.innerHTML = "";
+    if(alcaldia.value == "Álvaro Obregón"){
     var optionArray = ["|","19 DE MAYO|19 DE MAYO",
                               "1RA VICTORIA|1RA VICTORIA",
                               "1RA VICTORIA SECCION BOSQUES|1RA VICTORIA SECCION BOSQUES",
@@ -250,7 +250,7 @@ function change(indselect, depselect){
                               "VILLA VERDUN|VILLA VERDUN",
                               "ZENON DELGADO|ZENON DELGADO",
                               "ZOTOLTITLA|ZOTOLTITLA"];
-    } else if(indselect.value == "Azcapotzalco"){
+    } else if(alcaldia.value == "Azcapotzalco"){
     var optionArray = ["|","AGUILERA|AGUILERA",
                               "ALDANA|ALDANA",
                               "AMPLIACION PETROLERA|AMPLIACION PETROLERA",
@@ -362,7 +362,7 @@ function change(indselect, depselect){
                               "VICTORIA DE LAS DEMOCRACIAS|VICTORIA DE LAS DEMOCRACIAS",
                               "VILLAS AZCAPOTZALCO (U HAB)|VILLAS AZCAPOTZALCO (U HAB)",
                               "XOCHINAHUAC (U HAB)|XOCHINAHUAC (U HAB)"];                              
-    } else if(indselect.value == "Benito Juárez"){
+    } else if(alcaldia.value == "Benito Juárez"){
     var optionArray = ["|","ACACIAS|ACACIAS",
                               "ACTIPAN|ACTIPAN",
                               "ALAMOS I|ALAMOS I",
@@ -427,7 +427,7 @@ function change(indselect, depselect){
                               "VILLA DE CORTES|VILLA DE CORTES",
                               "XOCO|XOCO",
                               "ZACAHUITZCO|ZACAHUITZCO"];                           
-    } else if(indselect.value == "Coyoacán"){
+    } else if(alcaldia.value == "Coyoacán"){
     var optionArray = ["|","ADOLFO RUIZ CORTINES I|ADOLFO RUIZ CORTINES I",
                               "ADOLFO RUIZ CORTINES II|ADOLFO RUIZ CORTINES II",
                               "AJUSCO HUAYAMILPAS|AJUSCO HUAYAMILPAS",
@@ -581,7 +581,7 @@ function change(indselect, depselect){
                               "VILLAS DEL PEDREGAL (U HAB)|VILLAS DEL PEDREGAL (U HAB)",
                               "VISTAS DEL MAUREL (U HAB)|VISTAS DEL MAUREL (U HAB)",
                               "XOTEPINGO|XOTEPINGO",];                            
-    } else if(indselect.value == "Cuajimalpa"){ 
+    } else if(alcaldia.value == "Cuajimalpa"){ 
     var optionArray = ["|","1o DE MAYO|1o DE MAYO",
                               "ABDIAS GARCIA SOTO|ABDIAS GARCIA SOTO",
                               "ADOLFO LOPEZ MATEOS|ADOLFO LOPEZ MATEOS",
@@ -625,7 +625,7 @@ function change(indselect, depselect){
                               "TEXCALCO|TEXCALCO",
                               "XALPA|XALPA",
                               "ZENTLAPATL|ZENTLAPATL"];                           
-    } else if(indselect.value == "Cuauhtémoc"){
+    } else if(alcaldia.value == "Cuauhtémoc"){
     var optionArray = ["|","ALGARIN|ALGARIN",
                               "ASTURIAS|ASTURIAS",
                               "ASTURIAS (AMPL)|ASTURIAS (AMPL)",
@@ -690,7 +690,7 @@ function change(indselect, depselect){
                               "TRANSITO|TRANSITO",
                               "VALLE GOMEZ|VALLE GOMEZ",
                               "VISTA ALEGRE|VISTA ALEGRE",];                          
-    } else if(indselect.value == "Gustavo A. Madero"){
+    } else if(alcaldia.value == "Gustavo A. Madero"){
     var optionArray = ["|","15 DE AGOSTO|15 DE AGOSTO",
                               "25 DE JULIO|25 DE JULIO",
                               "51 LEGISLATURA|51 LEGISLATURA",
@@ -920,7 +920,7 @@ function change(indselect, depselect){
                               "ZONA ESCOLAR I|ZONA ESCOLAR I",
                               "ZONA ESCOLAR II|ZONA ESCOLAR II",
                               "ZONA ESCOLAR ORIENTE|ZONA ESCOLAR ORIENTE",];
-    } else if(indselect.value == "Iztacalco"){
+    } else if(alcaldia.value == "Iztacalco"){
     var optionArray = ["|","AGRICOLA ORIENTAL I|AGRICOLA ORIENTAL I",
                             "AGRICOLA ORIENTAL II|AGRICOLA ORIENTAL II",
                             "AGRICOLA ORIENTAL III|AGRICOLA ORIENTAL III",
@@ -976,7 +976,7 @@ function change(indselect, depselect){
                             "TLAZINTLA|TLAZINTLA",
                             "VIADUCTO PIEDAD|VIADUCTO PIEDAD",
                             "ZAPOTLA|ZAPOTLA",];
-    } else if(indselect.value == "Iztapalapa"){
+    } else if(alcaldia.value == "Iztapalapa"){
     var optionArray = ["|","12 DE DICIEMBRE|12 DE DICIEMBRE",
                           "1A AMPLIACION SANTIAGO ACAHUALTEPEC|1A AMPLIACION SANTIAGO ACAHUALTEPEC",
                           "2A AMPLIACION SANTIAGO ACAHUALTEPEC I|2A AMPLIACION SANTIAGO ACAHUALTEPEC I",
@@ -1269,7 +1269,7 @@ function change(indselect, depselect){
                           "XOPA (U HAB)|XOPA (U HAB)",
                           "ZACAHUITZCO|ZACAHUITZCO",
                           "ZONA MILITAR FAVE SEDENA (U HAB)|ZONA MILITAR FAVE SEDENA (U HAB)",];
-    } else if(indselect.value == "La Magdalena Contreras"){
+    } else if(alcaldia.value == "La Magdalena Contreras"){
     var optionArray = ["|","ATACAXCO|ATACAXCO",
                           "BARRANCA SECA|BARRANCA SECA",
                           "BARROS SIERRA|BARROS SIERRA",
@@ -1322,7 +1322,7 @@ function change(indselect, depselect){
                           "TIERRA COLORADA|TIERRA COLORADA",
                           "TIERRA UNIDA|TIERRA UNIDA",
                           "VISTA HERMOSA|VISTA HERMOSA",];
-    } else if(indselect.value == "Miguel Hidalgo"){
+    } else if(alcaldia.value == "Miguel Hidalgo"){
     var optionArray = ["|","10 DE ABRIL|10 DE ABRIL"
                         ,"16 DE SEPTIEMBRE|16 DE SEPTIEMBRE",
                         "5 DE MAYO|5 DE MAYO",
@@ -1411,7 +1411,7 @@ function change(indselect, depselect){
                         "UN HOGAR PARA NOSOTROS|UN HOGAR PARA NOSOTROS",
                         "VENTURA PEREZ DE ALBA|VENTURA PEREZ DE ALBA",
                         "VERONICA ANZURES|VERONICA ANZURES",];
-    } else if(indselect.value == "Milpa Alta"){
+    } else if(alcaldia.value == "Milpa Alta"){
     var optionArray = ["|","SAN AGUSTIN OHTENCO (PBLO)|SAN AGUSTIN OHTENCO (PBLO)"
                         ,"SAN ANTONIO TECOMITL (PBLO)|SAN ANTONIO TECOMITL (PBLO)",
                         "SAN BARTOLOME XICOMULCO (PBLO)|SAN BARTOLOME XICOMULCO (PBLO)",
@@ -1424,7 +1424,7 @@ function change(indselect, depselect){
                         "SAN SALVADOR CUAUHTENCO (PBLO)|SAN SALVADOR CUAUHTENCO (PBLO)",
                         "SANTA ANA TLACOTENCO (PBLO)|SANTA ANA TLACOTENCO (PBLO)",
                         "VILLA MILPA ALTA (PBLO)|VILLA MILPA ALTA (PBLO)",];
-    } else if(indselect.value == "Tláhuac"){
+    } else if(alcaldia.value == "Tláhuac"){
     var optionArray = ["|","3 DE MAYO|3 DE MAYO",
                           "AGRICOLA METROPOLITANA|AGRICOLA METROPOLITANA",
                           "ATOTOLCO|ATOTOLCO",
@@ -1483,7 +1483,7 @@ function change(indselect, depselect){
                           "UNIDADES HABITACIONALES DE SANTA ANA PONIENTE II|UNIDADES HABITACIONALES DE SANTA ANA PONIENTE II",
                           "VILLA CENTROAMERICANA (U HAB)|VILLA CENTROAMERICANA (U HAB)",
                           "VILLAS DE LOS TRABAJADORES (GDF) (U HAB)|VILLAS DE LOS TRABAJADORES (GDF) (U HAB)",];
-    } else if(indselect.value == "Tlalpan"){
+    } else if(alcaldia.value == "Tlalpan"){
     var optionArray = ["|","2 DE OCTUBRE|2 DE OCTUBRE",
                           "AHUACATITLA|AHUACATITLA",
                           "AMPLIACION MIGUEL HIDALGO 2A SECC|AMPLIACION MIGUEL HIDALGO 2A SECC",
@@ -1662,7 +1662,7 @@ function change(indselect, depselect){
                           "XAXALCO|XAXALCO",
                           "ZACATIENDA|ZACATIENDA",
                           "ZAPOTE-LUIS DONALDO COLOSIO (U HABS)|ZAPOTE-LUIS DONALDO COLOSIO (U HABS)",];
-    } else if(indselect.value == "Venustiano Carranza"){
+    } else if(alcaldia.value == "Venustiano Carranza"){
     var optionArray = ["|","10 DE MAYO|10 DE MAYO",
                           "20 DE NOVIEMBRE|20 DE NOVIEMBRE",
                           "20 DE NOVIEMBRE (AMPL)|20 DE NOVIEMBRE (AMPL)",
@@ -1743,7 +1743,7 @@ function change(indselect, depselect){
                           "VENUSTIANO CARRANZA|VENUSTIANO CARRANZA",
                           "VENUSTIANO CARRANZA (AMPL)|VENUSTIANO CARRANZA (AMPL)",
                           "VIADUCTO  - BALBUENA )CONJ HAB)|VIADUCTO  - BALBUENA )CONJ HAB)",];
-    } else if(indselect.value == "Xochimilco"){
+    } else if(alcaldia.value == "Xochimilco"){
     var optionArray = ["|","ALTOS TEPETLICA|ALTOS TEPETLICA",
                           "AZTLAN-APACHES (U HAB)|AZTLAN-APACHES (U HAB)",
                           "BARRIO 18|BARRIO 18",
@@ -1831,6 +1831,6 @@ function change(indselect, depselect){
     var newOption = document.createElement("option");
     newOption.value = pair[0];
     newOption.innerHTML = pair[1];
-    depselect.options.add(newOption);
+    colonia.options.add(newOption);
   };    
 }

@@ -8,8 +8,12 @@ El ejemplo es para las alcaldías y colonias de la CDMX proporcionadas en datos 
 - Prototype support: 1.7+
 
 Para mas  **documentación**, uso, y ejemplos, ver:
-http://harvesthq.github.io/chosen/
-https://github.com/haubek/bootstrap4c-chosen
+-Chosen http://harvesthq.github.io/chosen/
+
+-Bootstrap4c https://github.com/haubek/bootstrap4c-chosen
+
+
+- Bootswatch https://bootswatch.com/
 
 For **descargas**, ver:
 https://github.com/harvesthq/chosen/releases/
